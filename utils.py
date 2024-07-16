@@ -6,6 +6,7 @@ import string
 import allure
 
 
+
 @allure.step("создание урлы")
 def build_url(path):
     return API_HOST + path

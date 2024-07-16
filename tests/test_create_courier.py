@@ -97,5 +97,3 @@ def test_create_courier_with_empty_fields():
         response_json = response.json()
         assert 'message' in response_json
         assert response_json['message'] == 'Недостаточно данных для создания учетной записи'
-
-
